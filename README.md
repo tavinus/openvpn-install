@@ -10,6 +10,10 @@ This script will let you setup your own secure VPN server in just a few seconds.
 
 You can also check out [wireguard-install](https://github.com/angristan/wireguard-install), a simple installer for a simpler, safer, faster and more modern VPN protocol.
 
+## Tavinus Patch
+ - Changed VPN Network from 10.8.0.0 to 10.8.90.0
+ - Added `--days=3650` to all `easyrsa` "build" calls (10 year certificates)
+
 ## Usage
 
 First, get the script and make it executable:
